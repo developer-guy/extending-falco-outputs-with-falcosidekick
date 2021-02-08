@@ -11,6 +11,7 @@ Falco, the open-source cloud-native runtime security project, is the de facto Ku
 By default, Falco has 5 outputs for its events: stdout, file, gRPC, shell and http. Falcosidekick aims to enrich this output types, it is a simple daemon for enhancing available outputs for Falco. It takes a falco's event and forwards it to different outputs.
 
 ![falco_extend_arch](./falco_extend_archtitechture.png)
+> Credit: https://falco.org/blog/extend-falco-outputs-with-falcosidekick/
 
 # Prerequisites
 > quick note, we are going to do this demo on macOS Cataline 10.15.7, you can use brew "a package manager for macOS" to install all of the following tools.
