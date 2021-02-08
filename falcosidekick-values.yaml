@@ -1,0 +1,3 @@
+config:
+  nats:
+    hostport: nats://nats.nats:4222
