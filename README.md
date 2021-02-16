@@ -196,7 +196,7 @@ pod/nginx created
 ```
 
 Once we exec to it we should see the alert as the output of "nats sub" command.
-``bash
+```bash
 $ kubectl exec -ti nginx -- /bin/bash
 root@nginx:/#
 ```
